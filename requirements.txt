@@ -1,7 +1,7 @@
 aiofiles==24.1.0
 aiogram==3.20.0.post0
 aiohappyeyeballs==2.6.1
-aiohttp @ file:///C:/Users/Eva/Downloads/aiohttp-3.11.18-cp313-cp313-win_amd64.whl#sha256=bdd619c27e44382cf642223f11cfd4d795161362a5a1fc1fa3940397bc89db01
+aiohttp==3.11.18
 aiosignal==1.3.2
 annotated-types==0.7.0
 anyio==4.9.0
