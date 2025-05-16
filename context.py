@@ -22,10 +22,11 @@ def switch_key():
     return OPENAI_API_KEYS[key_index]
 
 logging.basicConfig(level=logging.INFO)
-bot = Bot(token=API_TOKEN)
+bot = Bot(token=TELEGRAM_TOKEN)
 dp = Dispatcher()
 
-openai.api_key = OPENAI_API_KEYS[0]
+OPENAI_API_KEYS = os.getenv('OPENAI_API_KEYS', '').split(',')
+
 
 user_data = {}
 user_daily_requests = {}
